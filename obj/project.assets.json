@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cicd-devops\\appservice-test\\appservice-test.csproj",
+      "projectUniqueName": "d:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj",
       "projectName": "appservice-test",
-      "projectPath": "D:\\cicd-devops\\appservice-test\\appservice-test.csproj",
+      "projectPath": "d:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\cicd-devops\\appservice-test\\obj\\",
+      "outputPath": "d:\\cicd-devops\\UAT-PROJECT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

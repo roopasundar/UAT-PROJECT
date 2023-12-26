@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cicd-devops\\appservice-test\\appservice-test.csproj": {}
+    "D:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj": {}
   },
   "projects": {
-    "D:\\cicd-devops\\appservice-test\\appservice-test.csproj": {
+    "D:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cicd-devops\\appservice-test\\appservice-test.csproj",
+        "projectUniqueName": "D:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj",
         "projectName": "appservice-test",
-        "projectPath": "D:\\cicd-devops\\appservice-test\\appservice-test.csproj",
+        "projectPath": "D:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\cicd-devops\\appservice-test\\obj\\",
+        "outputPath": "D:\\cicd-devops\\UAT-PROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

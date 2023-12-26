@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qT+tNXlN1QEMFKGIHUiLn2U8/QGQGNhU5lUu36Liq2TQ7ktdbg4vC7v19Uo54d8Vb2YchNuJDINw3pUhzIDFmg==",
+  "dgSpecHash": "7WTtuZYCzcJ0U1I1XB03phI1yrCp5H3m6+d0D00+FY2Ie4J8he/ueJ0yg0OKht7HjIDt+CYXnCUErxeAtea2AQ==",
   "success": true,
-  "projectFilePath": "D:\\cicd-devops\\appservice-test\\appservice-test.csproj",
+  "projectFilePath": "D:\\cicd-devops\\UAT-PROJECT\\appservice-test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
