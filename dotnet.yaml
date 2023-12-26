@@ -1,0 +1,28 @@
+---
+apiVersion: 2019-12-01
+location: centralindia
+name: dotnet-container-group
+properties:
+  containers:
+    - name: dotnet-app
+      properties:
+        image: testregistryrepo.azurecr.io/dotnet-image:latest
+        resources:
+          requests:
+            memoryInGB: 1
+            cpu: 1
+        ports:
+          - port: 5000
+            protocol: TCP
+  imageRegistryCredentials: # Credentials to pull a private image
+  - server: testregistryrepo.azurecr.io
+    username: testregistryrepo
+    password: F/CtTWvyhfAvbmDtSmm+2djLs/iDvdA1jXtCQL/1HZ+ACRAYkTQu            
+  osType: Linux
+  restartPolicy: Always
+  ipAddress:
+    type: Public
+    dnsNameLabel: dotnet-test-domain
+    ports:
+      - protocol: tcp
+        port: "5000"

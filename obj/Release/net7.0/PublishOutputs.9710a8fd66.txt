@@ -1,0 +1,7 @@
+D:\cicd-devops\appservice-test\out\appservice-test.exe
+D:\cicd-devops\appservice-test\out\appsettings.Development.json
+D:\cicd-devops\appservice-test\out\appsettings.json
+D:\cicd-devops\appservice-test\out\appservice-test.dll
+D:\cicd-devops\appservice-test\out\appservice-test.deps.json
+D:\cicd-devops\appservice-test\out\appservice-test.runtimeconfig.json
+D:\cicd-devops\appservice-test\out\appservice-test.pdb

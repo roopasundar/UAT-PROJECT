@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dotnet-deployment
+  labels:
+    app: webapp1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: webapp1
+  template:
+    metadata:
+      name: dotnet-pod
+      labels:
+        app: webapp1
+    spec:
+      containers:
+      - name: dotnet-container
+        image: imagelist123.azurecr.io/image:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: public-svc-dotnet
+  labels:
+    app: webapp1
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 5000
+    targetPort: 5000
+    protocol: TCP
+  selector:
+    app: webapp1

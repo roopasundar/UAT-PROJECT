@@ -1,0 +1,7 @@
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appservice-test.exe
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appsettings.Development.json
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appsettings.json
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appservice-test.dll
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appservice-test.deps.json
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appservice-test.runtimeconfig.json
+D:\cicd-devops\appservice-test\bin\Release\net7.0\publish\appservice-test.pdb
